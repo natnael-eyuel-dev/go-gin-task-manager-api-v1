@@ -23,14 +23,10 @@ The first complete Task Manager REST API iteration in Go/Gin, implementing core 
 
 ```text
 .
-├── controllers/
-├── models/
-├── router/
-├── data/
-├── docs/
-├── main.go
+├── Readme.md
 ├── go.mod
-└── Readme.md
+├── go.sum
+└── main.go
 ```
 
 ## Run
@@ -40,7 +36,7 @@ go mod tidy
 go run main.go
 ```
 
-## Suggested Endpoints (Typical)
+## Endpoints
 
 - `GET /tasks`
 - `GET /tasks/:id`
