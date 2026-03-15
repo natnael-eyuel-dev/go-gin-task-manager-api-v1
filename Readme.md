@@ -11,8 +11,6 @@ The first complete Task Manager REST API iteration in Go/Gin, implementing core 
 ## Features
 
 - RESTful CRUD endpoints for task resources
-- Basic routing, controllers, and model organization
-- API documentation scaffold in `docs/`
 
 ## Tech Stack
 
@@ -23,10 +21,10 @@ The first complete Task Manager REST API iteration in Go/Gin, implementing core 
 
 ```text
 .
-├── Readme.md
+├── main.go
 ├── go.mod
 ├── go.sum
-└── main.go
+└── Readme.md
 ```
 
 ## Run
@@ -47,5 +45,5 @@ go run main.go
 ## Learning Outcomes
 
 - Resource-based API design
-- Controller-routing composition
 - Request validation and response shaping
+- HTTP status code and payload conventions
